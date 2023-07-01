@@ -1,0 +1,41 @@
+.mainbox{
+    display: flex;
+    font-family: sans-serif;
+    background-color: antiquewhite;
+}
+.flexbox{
+   
+
+   width: 150px;
+    background-color: rgb(70, 66, 66);
+    color: white;
+   height: 400px;
+   border-radius: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.flexbox>ul{
+    display: flex;
+    flex-direction: column;
+   
+}
+.flexbox>ul>li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+#homeinfo{
+    display: none;
+}
+#contactinfo{
+    display: none;
+}
+#infoinfo{
+    display: none;
+}
+#guideinfo{
+    display: none;
+}
+.content-flex{
+    width: 900px;
+}
